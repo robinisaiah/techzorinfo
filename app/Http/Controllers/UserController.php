@@ -8,6 +8,9 @@ use App\User;
 use DataTables;
 use Illuminate\Support\Facades\Hash;
 use App\Jobs\SendUserListEmailJob;
+use App\Exports\UsersExport;
+use Maatwebsite\Excel\Facades\Excel;
+use Illuminate\Support\Facades\Storage;
 
 
 
@@ -53,10 +56,19 @@ class UserController extends Controller
 
     public function exportAndSendEmail()
     {
-        $filePath = storage_path('app/public/user_list.xlsx');
-        $email = 'robinsonisaiah017@gmail.com';
-        SendUserListEmailJob::dispatch($email, $filePath)->onQueue('emails');
+        $filePath = 'public/user_list.xlsx'; 
+        if (Storage::exists($filePath)) {
+         Storage::delete($filePath);
+        }
+        Excel::store(new UsersExport, $filePath, 'local');
+        $fullPath = storage_path('app/' . $filePath);
+        // dd($fullPath);
+        if (!file_exists($fullPath)) {
+            return back()->with('error', 'File could not be created.');
+        }
+            $email = 'robinsonisaiah017@gmail.com';
+            SendUserListEmailJob::dispatch($email, $fullPath)->onQueue('emails');
 
-        return redirect()->route('users.index')->with('success', 'Email is being processed in queue');
-    }
+            return redirect()->route('users.index')->with('success', 'Email is being processed in queue');
+        }
 }

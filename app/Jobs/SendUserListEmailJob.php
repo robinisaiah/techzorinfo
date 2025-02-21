@@ -26,6 +26,7 @@ class SendUserListEmailJob implements ShouldQueue
 
     public function handle()
     {
+        // dd($this->filePath);
         Mail::to($this->email)->send(new UserListMail($this->filePath));
     }
 }

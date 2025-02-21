@@ -18,6 +18,12 @@ class UserListMail extends Mailable
 
     public function build()
     {
+        // dd($this->filePath);
+
+        if (!file_exists($this->filePath)) {
+            throw new \Exception("Attachment file does not exist: " . $this->filePath);
+        }
+
         return $this->subject('User List Report')
                     ->view('emails.user_list')
                     ->attach($this->filePath, [
