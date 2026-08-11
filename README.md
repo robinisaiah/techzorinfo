@@ -1,7 +1,7 @@
 # techzorinfo
 
 #	Problem	Difficulty	What it tests
-1	Distributed Job Queue	🔥🔥🔥🔥🔥	Concurrency, queues, retries, workers
+ -	Distributed Job Queue	🔥🔥🔥🔥🔥	Concurrency, queues, retries, workers
 2	Rate Limiter Service	🔥🔥🔥🔥	Algorithms, Redis, concurrency
 3	URL Shortener at Scale	🔥🔥🔥	API design, DB, caching, scalability
 4	Ticket Booking System	🔥🔥🔥🔥🔥	Transactions, concurrency, race conditions
