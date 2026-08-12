@@ -21,3 +21,6 @@ Are you ready to prove your coding prowess?
 TECHBREWERS returns with CODETHON 2026, a high-energy coding challenge designed not just to test your technical skills, but to identify the future leaders, innovators, and problem-solvers among you.
 
 Join us for an exciting Codethon where your logic, speed, creativity, and ability to solve real-world challenges will set you apart
+Code with confidence. Compete with passion. Conquer the challenge.
+
+We look forward to seeing you at TECHBREWERS CODETHON 2026!
