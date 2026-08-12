@@ -11,3 +11,13 @@
 -	File Upload & Processing Service	🔥🔥🔥🔥	Async jobs, storage, APIs
 -	Order Management System	🔥🔥🔥🔥	State machines, transactions, APIs
 -	Real-Time Leaderboard	🔥🔥🔥🔥	Redis, ranking, performance
+
+Dear Participant,
+
+285 participants. 8 hours. One leaderboard.
+
+Are you ready to prove your coding prowess?
+
+TECHBREWERS returns with CODETHON 2026, a high-energy coding challenge designed not just to test your technical skills, but to identify the future leaders, innovators, and problem-solvers among you.
+
+Join us for an exciting Codethon where your logic, speed, creativity, and ability to solve real-world challenges will set you apart
