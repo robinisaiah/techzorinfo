@@ -92,3 +92,18 @@ Role-based authorization
 Clean project structure
 Main objective: Demonstrate backend business logic, not just CRUD. The evaluator should be able to test the complete flow:
 Create Ticket → Validate → Calculate Priority → Assign → Calculate SLA → Manage Status → Escalate → Resolve → Close → Audit.
+
+ennoda in Loan  = 50000
+reday cash for laptop  = 26060
+my balnce amount in loan = 50000 - 26060 = 23940;
+23940 unaku send pandren na; 
+alredy nee vachu iruka amount  = 14200;
+over all my amount = 23940 + 14200 = 38140;
+monly enaku credit card emi  5275 x 9 months = 47475;
+1. 38140 - 5275 = 32865;
+2. 32865 - 5275 = 27590;
+3. 27590 - 5275 = 22315;
+4. 22315 - 5275 = 17040;
+5. 17040 - 5275 = 11765;
+6. 11765 - 5275 = 6490;
+7. 
